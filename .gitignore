@@ -1,0 +1,23 @@
+# Ignore dataset folder
+Data/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
